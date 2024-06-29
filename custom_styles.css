@@ -1,0 +1,61 @@
+body {
+    background-image: url('background.png'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Change text color to white */
+    text-align: center; /* Center align text */
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000; /* Add text shadow for better readability */
+    margin-top: 20px; /* Ensure there is some margin at the top */
+    padding-top: 20px; /* Padding for top space */
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background for cards */
+    color: white;
+    border: none;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.modal-content {
+    background: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background for modal */
+    color: white;
+}
+
+.close {
+    color: white;
+}
+
+button.logout {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.logout:hover {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+}
+
+.card img {
+    max-width: 100%; /* Ensure image fits container width */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
